@@ -161,7 +161,7 @@ function Addtocart() {
                         name="pincode"
                         value={placeorder.pincode}
                         maxLength={6}
-                        minLength={6}
+                      
                         onChange={handlechange}
                         className="w-full px-4 py-2 border rounded-md"
                         required
@@ -171,7 +171,7 @@ function Addtocart() {
                       <label htmlFor="address" className="block text-lg font-medium mb-2">Address <span className="text-red-600">*</span></label>
                       <textarea
                         name="address"
-                        minLength={5}
+                      
                         value={placeorder.address}
                         onChange={handlechange}
                         className="w-full px-4 py-2 border rounded-md"
@@ -183,7 +183,7 @@ function Addtocart() {
                       <input
                         type="tel"
                         maxLength={10}
-                        minLength={10}
+                     
                         name="phonenumber"
                         value={placeorder.phonenumber}
                         onChange={handlechange}
