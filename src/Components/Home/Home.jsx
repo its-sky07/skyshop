@@ -8,7 +8,7 @@ import { Ri24HoursFill } from "react-icons/ri";
 const Home = () => {
   const context = useOutletContext();
   return (<>
-    <div className=' h-screen  w-full bg-cover flex justify-center  p-10  items-start flex-col bg-[url("https://st4.depositphotos.com/13193658/30137/i/450/depositphotos_301375510-stock-illustration-young-woman-holding-credit-card.jpg")] ' >
+    <div className=' h-screen mt-10 w-full bg-cover flex justify-center  p-10  items-start flex-col bg-[url("https://st4.depositphotos.com/13193658/30137/i/450/depositphotos_301375510-stock-illustration-young-woman-holding-credit-card.jpg")] ' >
       <h1 className='text-white text-4xl font-extrabold'>Discover the perfect blend of style,<br></br> convenience, and joy.<br></br> Shop with us and make every purchase <br></br>an experience worth cherishing.</h1>
       <Link className='bg-blue-600 text-white p-2 mt-10 flex items-center font-bold' to="/Allproduct">Explore More. <FaArrowRight /></Link>
     </div>

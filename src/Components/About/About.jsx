@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
     
-    <div className="container mx-auto p-6">
+    <div className="container mt-36 mx-auto p-6">
       <h1 className="text-4xl font-bold mb-4">Help & Support</h1>
       <p className="mb-6">Welcome to our help page. Here you'll find answers to common questions and resources to help you with your shopping experience.</p>
       

@@ -86,7 +86,7 @@ function Allproduct() {
   return (
     <>
 
-      <form onSubmit={handlesearch} className="max-w-md mx-auto mt-10">
+      <form onSubmit={handlesearch} className="max-w-md mx-auto mt-32 ml-2 mr-2">
         <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
         <div className="relative">
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
