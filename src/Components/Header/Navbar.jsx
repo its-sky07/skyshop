@@ -27,10 +27,11 @@ function Nav({ Cart, username }) {
       <ul className='hidden md:flex gap-20 font-bold'>
         <Navlink />
       </ul >
+
       <details className='flex absolute top-8 left-3 flex-col'>
         <summary className='flex top-5 items-center justify-between'>
           <span className='text-2xl  font-bold  flex gap-2'>
-            {username ? <CgProfile size={35} /> : ""}
+             <CgProfile size={35} /> 
 
           </span>
         </summary>
@@ -49,9 +50,6 @@ function Nav({ Cart, username }) {
           )}
         </div>
       </details>
-
-
-
 
       <div className=' flex justify-center relative items-center'>
 
