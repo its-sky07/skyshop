@@ -97,7 +97,7 @@ function App() {
         className: 'mt-20'
       }} />
       <Nav Cart={Cart} username={username} />
-      <Outlet context={{ Cart,proadded,  username,setproadded,proadded, siglepagedata ,sethomepro,homepro, Addtingtocar, Handleremove, handleinc, handledec, gettotalproce, promocode, setpromocode, handlepromocode,handlesiglepage }} />
+      <Outlet context={{ Cart,  username,setproadded,proadded, siglepagedata ,sethomepro,homepro, Addtingtocar, Handleremove, handleinc, handledec, gettotalproce, promocode, setpromocode, handlepromocode,handlesiglepage }} />
       <Footer />
     </>
   )
