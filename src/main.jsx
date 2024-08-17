@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -10,16 +10,11 @@ import Contact from './Components/Contact/Contact.jsx'
 import Login from './Components/Header/Login.jsx'
 import Signup from './Components/Header/Signup.jsx'
 import Addtocart from './Components/Addtocart/Addtocart.jsx'
-import productcontexts from './Context/Context.js'
+// import productcontexts from './Context/Context.js'
 import Singlepage from './Components/singlepage/Singlepage.jsx'
 import Checkout from './Components/checkout/Checkout.jsx'
 
 
-// const [cart, setcart] = useState([])
-//  const Addtingtocar=(pro)=>{
-  // setcart(...cart,pro)
-  // console.log(pro)
-//  }
 
 const router = createBrowserRouter(
   createRoutesFromElements(

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Nav from './Components/Header/Navbar'
 import Footer from './Components/Footer/Footer'
-import { Outlet, useNavigate } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import toast, { Toaster } from 'react-hot-toast';
 import { Auth } from './Components/firebase/Firebase';
 import { onAuthStateChanged } from 'firebase/auth';
